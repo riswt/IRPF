@@ -3,18 +3,30 @@
     <meta charset="UTF-8">
     <title>Imposto de Renda</title>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		  <script>
-
-      </script>
+		<script src="./js/javascript.js" charset="utf-8"></script>
 	</head>
 	<body>
-    <main>
-      <p id="titulo">Imposto de Renda</p>
+      <p id="titulo">IMPOSTO DE RENDA</p>
+		<div id="nomeesal">
 			<p id="ttext">Nome:</p>
-			<input type="text" placeholder="Nome Completo" name="nome" id="input"> </input>
+			<input type="text" placeholder="Nome Completo" name="nome" id=nome> </input>
 			<p id="ttext">Salário:</p>
-			<input type="number" placeholder="Seu Salário" name="sal" id="input"> </input>
-    </main>
+			<input type="number" placeholder="Seu Salário Bruto" name="sal" id="sal" > </input>
+			<button type="button" name="botao" onclick="calculo()" id="botao">Calcular</button>
+		</div>
+
+		<table>
+      <tr>
+        <th>Nome</th>
+        <th>Salário Bruto</th>
+        <th>%INSS</th>
+        <th>INSS</th>
+        <th>%IRPF</th>
+        <th>IRPF</th>
+        <th>Salário Líquido</th>
+      </tr>
+    </table>
+
 
 
 
