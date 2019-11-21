@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#fde4fc;
+}
+
+main{
+  background-color:#e4b4ff;
+  height:400px;
+  width:35%;
+  border:2px solid #242424;
+  border-radius:10px;
+  margin-left:32.5%;
+  margin-top:150px;
+}
+
+#titulo{
+  font-size:50px;
+  font-family:Arial;
+  font-weight:bold;
+  text-align:center;
+  margin-top:5%;
+}
+
+#input{
+  margin-left:33%;
+
+}
+
+#ttext{
+  margin-left:33%;
+  margin-top:10%;
+  font-family:Arial;
+  font-weight:bold;
+}
